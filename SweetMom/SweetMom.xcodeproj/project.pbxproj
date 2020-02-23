@@ -17,7 +17,8 @@
 		44197A1223CE395C00311E6C /* Opun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44197A1123CE395B00311E6C /* Opun-Regular.ttf */; };
 		442203AE23DB996B00A72CA3 /* addTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442203AD23DB996B00A72CA3 /* addTableViewCell.swift */; };
 		4426F4D123E0399500ACDFFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4426F4D023E0399500ACDFFA /* GoogleService-Info.plist */; };
-		4472016723E0781000A55353 /* userWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472016623E0781000A55353 /* userWeight.swift */; };
+		445DBCF823F5BEB5003E49FA /* NotificationChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445DBCF723F5BEB5003E49FA /* NotificationChatTableViewController.swift */; };
+		4472016723E0781000A55353 /* userWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472016623E0781000A55353 /* userWeights.swift */; };
 		44818E5123D62E3900A1A1CB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44818E5023D62E3900A1A1CB /* TabBarController.swift */; };
 		44818E5323D6329400A1A1CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44818E5223D6329400A1A1CB /* HomeViewController.swift */; };
 		44818E5523D6333800A1A1CB /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44818E5423D6333800A1A1CB /* BlogViewController.swift */; };
@@ -58,7 +59,8 @@
 		442203AC23DB0D9000A72CA3 /* SweetMom.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SweetMom.entitlements; sourceTree = "<group>"; };
 		442203AD23DB996B00A72CA3 /* addTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTableViewCell.swift; sourceTree = "<group>"; };
 		4426F4D023E0399500ACDFFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		4472016623E0781000A55353 /* userWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userWeight.swift; sourceTree = "<group>"; };
+		445DBCF723F5BEB5003E49FA /* NotificationChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationChatTableViewController.swift; sourceTree = "<group>"; };
+		4472016623E0781000A55353 /* userWeights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userWeights.swift; sourceTree = "<group>"; };
 		44818E5023D62E3900A1A1CB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		44818E5223D6329400A1A1CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		44818E5423D6333800A1A1CB /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,16 @@
 				44197A1123CE395B00311E6C /* Opun-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		445DBCF623F5BAB8003E49FA /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				44818E5823D6337C00A1A1CB /* ChatViewController.swift */,
+				44044AD623E4F52500728F64 /* RoomChatViewController.swift */,
+				445DBCF723F5BEB5003E49FA /* NotificationChatTableViewController.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		44818E4E23D62E0800A1A1CB /* Login */ = {
@@ -206,8 +218,7 @@
 				44818E6423D692F600A1A1CB /* Home */,
 				44818E5423D6333800A1A1CB /* BlogViewController.swift */,
 				44818E5623D6336100A1A1CB /* PhotoViewController.swift */,
-				44818E5823D6337C00A1A1CB /* ChatViewController.swift */,
-				44044AD623E4F52500728F64 /* RoomChatViewController.swift */,
+				445DBCF623F5BAB8003E49FA /* Chat */,
 				44818E5A23D6339800A1A1CB /* ShopViewController.swift */,
 			);
 			path = View;
@@ -217,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				44EEB8BB23DC57200014B155 /* User.swift */,
-				4472016623E0781000A55353 /* userWeight.swift */,
+				4472016623E0781000A55353 /* userWeights.swift */,
 				44044AD223E4D1EC00728F64 /* Dietician.swift */,
 				44044ADE23E5378F00728F64 /* Shop.swift */,
 				44A56A1F23EEBBD000C480E6 /* Meal.swift */,
@@ -376,10 +387,11 @@
 				44818E5523D6333800A1A1CB /* BlogViewController.swift in Sources */,
 				44044ADD23E5348900728F64 /* ShopTableViewCell.swift in Sources */,
 				44A56A2023EEBBD000C480E6 /* Meal.swift in Sources */,
+				445DBCF823F5BEB5003E49FA /* NotificationChatTableViewController.swift in Sources */,
 				44948F9A23CDE8DB001ADE04 /* SceneDelegate.swift in Sources */,
 				44948F9D23CDE8DB001ADE04 /* SweetMom.xcdatamodeld in Sources */,
 				44A7EF2123DA660400B7C992 /* WeightViewController.swift in Sources */,
-				4472016723E0781000A55353 /* userWeight.swift in Sources */,
+				4472016723E0781000A55353 /* userWeights.swift in Sources */,
 				44044AD723E4F52500728F64 /* RoomChatViewController.swift in Sources */,
 				44BF530423D35379004E7FD4 /* registerViewController.swift in Sources */,
 				442203AE23DB996B00A72CA3 /* addTableViewCell.swift in Sources */,
