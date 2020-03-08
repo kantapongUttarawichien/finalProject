@@ -17,6 +17,8 @@
 		44197A1223CE395C00311E6C /* Opun-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44197A1123CE395B00311E6C /* Opun-Regular.ttf */; };
 		442203AE23DB996B00A72CA3 /* addTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442203AD23DB996B00A72CA3 /* addTableViewCell.swift */; };
 		4426F4D123E0399500ACDFFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4426F4D023E0399500ACDFFA /* GoogleService-Info.plist */; };
+		444EA2A924052D450088A00C /* userBloodSugars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444EA2A824052D450088A00C /* userBloodSugars.swift */; };
+		444FF7BC2409A8DC00167788 /* Opun-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 444FF7BB2409A8DC00167788 /* Opun-Medium.ttf */; };
 		445DBCF823F5BEB5003E49FA /* NotificationChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445DBCF723F5BEB5003E49FA /* NotificationChatTableViewController.swift */; };
 		4472016723E0781000A55353 /* userWeights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472016623E0781000A55353 /* userWeights.swift */; };
 		44818E5123D62E3900A1A1CB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44818E5023D62E3900A1A1CB /* TabBarController.swift */; };
@@ -39,6 +41,10 @@
 		44A7EF1F23DA645500B7C992 /* BloodSugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7EF1E23DA645500B7C992 /* BloodSugarViewController.swift */; };
 		44A7EF2123DA660400B7C992 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7EF2023DA660400B7C992 /* WeightViewController.swift */; };
 		44A7EF2323DA66E600B7C992 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7EF2223DA66E600B7C992 /* ProfileViewController.swift */; };
+		44ABECE72415368F007B23E7 /* KeywordSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ABECE62415368F007B23E7 /* KeywordSuggestions.swift */; };
+		44ABECE9241536FB007B23E7 /* SearchHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ABECE8241536FA007B23E7 /* SearchHistoryCell.swift */; };
+		44ABECEB24153D7B007B23E7 /* ShopTopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ABECEA24153D7B007B23E7 /* ShopTopTableViewCell.swift */; };
+		44ABECED24154179007B23E7 /* ShopInShopTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ABECEC24154179007B23E7 /* ShopInShopTopCollectionViewCell.swift */; };
 		44BF530423D35379004E7FD4 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF530323D35379004E7FD4 /* registerViewController.swift */; };
 		44BF530623D3F007004E7FD4 /* popUpWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BF530523D3F007004E7FD4 /* popUpWindow.swift */; };
 		44EEB8BC23DC57200014B155 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EEB8BB23DC57200014B155 /* User.swift */; };
@@ -59,6 +65,8 @@
 		442203AC23DB0D9000A72CA3 /* SweetMom.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = SweetMom.entitlements; sourceTree = "<group>"; };
 		442203AD23DB996B00A72CA3 /* addTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTableViewCell.swift; sourceTree = "<group>"; };
 		4426F4D023E0399500ACDFFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		444EA2A824052D450088A00C /* userBloodSugars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userBloodSugars.swift; sourceTree = "<group>"; };
+		444FF7BB2409A8DC00167788 /* Opun-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Opun-Medium.ttf"; sourceTree = "<group>"; };
 		445DBCF723F5BEB5003E49FA /* NotificationChatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationChatTableViewController.swift; sourceTree = "<group>"; };
 		4472016623E0781000A55353 /* userWeights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userWeights.swift; sourceTree = "<group>"; };
 		44818E5023D62E3900A1A1CB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 		44A7EF1E23DA645500B7C992 /* BloodSugarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodSugarViewController.swift; sourceTree = "<group>"; };
 		44A7EF2023DA660400B7C992 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
 		44A7EF2223DA66E600B7C992 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		44ABECE62415368F007B23E7 /* KeywordSuggestions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeywordSuggestions.swift; sourceTree = "<group>"; };
+		44ABECE8241536FA007B23E7 /* SearchHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistoryCell.swift; sourceTree = "<group>"; };
+		44ABECEA24153D7B007B23E7 /* ShopTopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTopTableViewCell.swift; sourceTree = "<group>"; };
+		44ABECEC24154179007B23E7 /* ShopInShopTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopInShopTopCollectionViewCell.swift; sourceTree = "<group>"; };
 		44BF530323D35379004E7FD4 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
 		44BF530523D3F007004E7FD4 /* popUpWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popUpWindow.swift; sourceTree = "<group>"; };
 		44EEB8BB23DC57200014B155 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -114,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				44197A1123CE395B00311E6C /* Opun-Regular.ttf */,
+				444FF7BB2409A8DC00167788 /* Opun-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -212,7 +225,10 @@
 				44044AD023E44E3100728F64 /* chatCollectionViewCell.swift */,
 				44044AD823E4F53900728F64 /* TableViewCell.swift */,
 				44044ADC23E5348900728F64 /* ShopTableViewCell.swift */,
+				44ABECEA24153D7B007B23E7 /* ShopTopTableViewCell.swift */,
+				44ABECEC24154179007B23E7 /* ShopInShopTopCollectionViewCell.swift */,
 				44A56A2123EEC0A000C480E6 /* mealCollectionViewCell.swift */,
+				44ABECE8241536FA007B23E7 /* SearchHistoryCell.swift */,
 				44818E4F23D62E1E00A1A1CB /* PopUp */,
 				44818E4E23D62E0800A1A1CB /* Login */,
 				44818E6423D692F600A1A1CB /* Home */,
@@ -232,6 +248,8 @@
 				44044AD223E4D1EC00728F64 /* Dietician.swift */,
 				44044ADE23E5378F00728F64 /* Shop.swift */,
 				44A56A1F23EEBBD000C480E6 /* Meal.swift */,
+				444EA2A824052D450088A00C /* userBloodSugars.swift */,
+				44ABECE62415368F007B23E7 /* KeywordSuggestions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -313,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44948FA723CDE8DF001ADE04 /* LaunchScreen.storyboard in Resources */,
+				444FF7BC2409A8DC00167788 /* Opun-Medium.ttf in Resources */,
 				44197A1223CE395C00311E6C /* Opun-Regular.ttf in Resources */,
 				4426F4D123E0399500ACDFFA /* GoogleService-Info.plist in Resources */,
 				44948FA423CDE8DF001ADE04 /* Preview Assets.xcassets in Resources */,
@@ -388,11 +407,16 @@
 				44044ADD23E5348900728F64 /* ShopTableViewCell.swift in Sources */,
 				44A56A2023EEBBD000C480E6 /* Meal.swift in Sources */,
 				445DBCF823F5BEB5003E49FA /* NotificationChatTableViewController.swift in Sources */,
+				44ABECE72415368F007B23E7 /* KeywordSuggestions.swift in Sources */,
+				44ABECE9241536FB007B23E7 /* SearchHistoryCell.swift in Sources */,
 				44948F9A23CDE8DB001ADE04 /* SceneDelegate.swift in Sources */,
 				44948F9D23CDE8DB001ADE04 /* SweetMom.xcdatamodeld in Sources */,
 				44A7EF2123DA660400B7C992 /* WeightViewController.swift in Sources */,
+				444EA2A924052D450088A00C /* userBloodSugars.swift in Sources */,
+				44ABECEB24153D7B007B23E7 /* ShopTopTableViewCell.swift in Sources */,
 				4472016723E0781000A55353 /* userWeights.swift in Sources */,
 				44044AD723E4F52500728F64 /* RoomChatViewController.swift in Sources */,
+				44ABECED24154179007B23E7 /* ShopInShopTopCollectionViewCell.swift in Sources */,
 				44BF530423D35379004E7FD4 /* registerViewController.swift in Sources */,
 				442203AE23DB996B00A72CA3 /* addTableViewCell.swift in Sources */,
 				44818E5923D6337C00A1A1CB /* ChatViewController.swift in Sources */,
